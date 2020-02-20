@@ -1,0 +1,25 @@
+hotKey:
+  shift-0:
+    shortCut: Shift-0
+    description: View pods
+    command: pods
+  shift-1:
+    shortCut: Shift-1
+    description: View ingress
+    command: ingress
+  shift-2:
+    shortCut: Shift-2
+    description: View services
+    command: service
+  shift-3:
+    shortCut: Shift-3
+    description: View deployments
+    command: dp
+  shift-4:
+    shortCut: Shift-4
+    description: View statefulsets
+    command: sts
+  shift-5:
+    shortCut: Shift-5
+    description: View Port Forward
+    command: pf

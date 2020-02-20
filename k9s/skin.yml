@@ -1,0 +1,99 @@
+black: &black "#546d79"
+red: &red "#ff5151"
+green: &green "#69f0ad"
+yellow: &yellow "#ffd73f"
+blue: &blue "#40c4fe"
+magenta: &magenta "#ff3f80"
+cyan: &cyan "#64fcda"
+white: &white "#fefefe"
+selection: &selection "#607c8b"
+background: &background "#263137"
+darkBackground: &darkBackground "#19252B"
+
+k9s:
+  body:
+    fgColor: *blue
+    bgColor: *background 
+    logoColor: *background
+  info:
+    fgColor: *blue
+    sectionColor: *white
+  frame:
+    border:
+      fgColor: *red
+      focusColor: *darkBackground
+    menu:
+      fgColor: *white
+      keyColor: *blue
+      numKeyColor: *green
+    crumbs:
+      fgColor: black
+      bgColor: *white
+      activeColor: *blue
+    status:
+      newColor: *blue
+      modifyColor: *yellow
+      addColor: *blue
+      errorColor: *red
+      highlightcolor: pink
+      killColor: *red
+      completedColor: gray
+    title:
+      fgColor: *blue
+      bgColor: *darkBackground
+      highlightColor: *blue
+      counterColor: *white
+      filterColor: *white
+  views:
+    yaml:
+      keyColor: *magenta
+      colonColor: *white
+      valueColor: *yellow
+      bgColor: *darkBackground
+    logs:
+      fgColor: *white
+      bgColor: *darkBackground
+    table:
+      fgColor: *blue
+      bgColor: *darkBackground
+      cursorColor: pink
+      markColor: pink
+      header:
+        fgColor: *green
+        bgColor: *darkBackground
+        sorterColor: *yellow
+    xray:
+      fgColor: *black
+      bgColor: *darkBackground
+      cursorColor: *blue
+      graphicColor: darkgoldenrod
+      showIcons: true
+    charts:
+      bgColor: *background
+      dialBgColor: "#0A2239"
+      chartBgColor: "#0A2239"
+      defaultDialColors:
+        - "#1E3888"
+        - "#820101"
+      defaultChartColors:
+        - "#1E3888"
+        - "#820101"
+      resourceColors:
+        batch/v1/jobs:
+          - "#5D737E"
+          - "#820101"
+        v1/persistentvolumes:
+          - "#3E554A"
+          - "#820101"
+        cpu:
+          - "#6EA4BF"
+          - "#820101"
+        mem:
+          - "#17505B"
+          - "#820101"
+        v1/events:
+          - "#073B3A"
+          - "#820101"
+        v1/pods:
+          - "#487FFF"
+          - "#820101"

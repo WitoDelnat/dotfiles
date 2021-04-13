@@ -1,3 +1,5 @@
+tap "xwmx/taps"
+
 # ---------------------------------------------
 # Applications
 # ---------------------------------------------
@@ -13,6 +15,7 @@
 # cask 'vlc'
 # cask 'transmission'
 # cask 'tableplus
+# cask 'stats
 
 # ---------------------------------------------
 # Development

@@ -7,12 +7,15 @@ cask 'google-chrome'
 cask 'google-drive'
 cask 'sublime-text'
 cask 'notion'
-cask 'whatsapp'
-cask 'vlc'
-cask 'transmission'
 cask 'discord'
 cask 'linear-linear'
 cask 'figma'
+
+cask 'whatsapp'
+cask 'transmission'
+cask 'vlc'
+cask 'calibre'
+cask 'adobe-digital-editions'
 
 # ---------------------------------------------
 # Development
@@ -34,8 +37,11 @@ brew 'go'
 cask 'docker'
 cask 'google-cloud-sdk'
 
+brew 'minikube'  # Local Kubernetes cluster
+brew 'skaffold'  # Local Kubernetes development tool
 brew 'k9s'       # Better Kubernetes CLI
 brew 'kustomize' # Kubernetes configuration management
+brew 'dive'      # Troubleshoot Docker images
 
 # ---------------------------------------------
 # Utilities
@@ -47,6 +53,8 @@ cask 'tunnelblick'      # OpenVPN client
 cask 'rectangle'        # Window manager
 cask 'stats'            # Show CPU/RAM/Network in menu bar
 cask 'bartender'        # Hide icons in menu bar
+
+brew 'watch'
 
 # ---------------------------------------------
 # Terminal

@@ -7,11 +7,12 @@ cask 'google-chrome'
 cask 'google-drive'
 cask 'sublime-text'
 cask 'notion'
-cask 'discord'
 cask 'linear-linear'
 cask 'figma'
+cask 'mimestream'
 
 cask 'whatsapp'
+cask 'discord'
 cask 'transmission'
 cask 'vlc'
 cask 'calibre'
@@ -20,8 +21,10 @@ cask 'adobe-digital-editions'
 # ---------------------------------------------
 # Development
 # ---------------------------------------------
+cask 'raycast'   # Advanced MacOs launcher
 cask 'visual-studio-code' # IDE
 cask 'tableplus' # Database client
+cask 'mongodb-compass' # MongoDB client
 cask 'fork'      # Git client
 cask 'boop'      # Programming util
 
@@ -41,12 +44,13 @@ brew 'minikube'  # Local Kubernetes cluster
 brew 'skaffold'  # Local Kubernetes development tool
 brew 'k9s'       # Better Kubernetes CLI
 brew 'kustomize' # Kubernetes configuration management
+brew 'helm'      # Kubernetes configuration management
 brew 'dive'      # Troubleshoot Docker images
 
 # ---------------------------------------------
 # Utilities
 # ---------------------------------------------
-cask 'flycut'           # Better copy-paste
+cask 'flycut'            # Better copy-paste
 cask '1password'        # Password manager
 cask 'grandperspective' # Analyse disk usage
 cask 'tunnelblick'      # OpenVPN client

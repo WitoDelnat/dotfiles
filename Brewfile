@@ -1,38 +1,63 @@
 tap "xwmx/taps"
+tap "homebrew/cask-fonts"
 
 # ---------------------------------------------
 # Applications
 # ---------------------------------------------
 cask 'google-chrome'
 cask 'google-drive'
-cask 'sublime-text'
+
+# Productivity
 cask 'notion'
+cask 'sublime-text'
 cask 'linear-linear'
 cask 'figma'
-cask 'mimestream'
 
-cask 'whatsapp'
+# Communication
+cask 'slack'
 cask 'discord'
+cask 'zoom'
+cask 'mimestream'
+cask 'whatsapp'
+
+# Leisure
+cask 'calibre'
 cask 'transmission'
 cask 'vlc'
-cask 'calibre'
-cask 'adobe-digital-editions'
+
+# Utilities
+cask '1password'        # Password manager
+cask 'grandperspective' # Analyse disk usage
+cask 'tunnelblick'      # OpenVPN client
+cask 'bartender'        # Hide icons in menu bar
+cask 'stats'            # Show CPU/RAM/Network in menu bar
+cask 'rectangle'        # Window manager
+
+# Fonts
+brew 'font-fira-code'   # Font
 
 # ---------------------------------------------
 # Development
 # ---------------------------------------------
 cask 'raycast'   # Advanced MacOs launcher
-cask 'visual-studio-code' # IDE
-cask 'tableplus' # Database client
-cask 'mongodb-compass' # MongoDB client
-cask 'fork'      # Git client
-cask 'boop'      # Programming util
+cask 'fig'        # Advanced CLI intellisense
 
-brew 'node'
+# IDEs
+cask 'visual-studio-code' # IDE
+cask 'tableplus'          # Database client
+cask 'mongodb-compass'    # MongoDB client
+cask 'fork'               # Git client
+cask 'boop'               # Programming util
+
+# Programming languages
+brew 'n' # node version manager
 brew 'deno'
 brew 'yarn'
 brew 'python'
 brew 'go'
+
+# Mobile development
+brew 'scrcpy' # Mirror phone to laptop
 
 # ---------------------------------------------
 # Operations
@@ -40,6 +65,7 @@ brew 'go'
 cask 'docker'
 cask 'google-cloud-sdk'
 
+# Kubernetes
 brew 'minikube'  # Local Kubernetes cluster
 brew 'skaffold'  # Local Kubernetes development tool
 brew 'k9s'       # Better Kubernetes CLI
@@ -48,23 +74,11 @@ brew 'helm'      # Kubernetes configuration management
 brew 'dive'      # Troubleshoot Docker images
 
 # ---------------------------------------------
-# Utilities
-# ---------------------------------------------
-cask 'flycut'            # Better copy-paste
-cask '1password'        # Password manager
-cask 'grandperspective' # Analyse disk usage
-cask 'tunnelblick'      # OpenVPN client
-cask 'rectangle'        # Window manager
-cask 'stats'            # Show CPU/RAM/Network in menu bar
-cask 'bartender'        # Hide icons in menu bar
-
-brew 'watch'
-
-# ---------------------------------------------
 # Terminal
 # ---------------------------------------------
-cask 'iterm2'  # Better terminal
-cask 'ngrok'   # Expose local servers
+cask 'iterm2'    # Better terminal
+cask 'ngrok'     # Expose local servers
+cask 'gpg-suite' # Sign git commits
 
 brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
@@ -78,8 +92,3 @@ brew 'tree'      # List directories as a tree
 brew 'fzf'       # Fuzzy search
 brew 'jq'        # Toolkit for JSON processing
 brew 'httpie'    # Toolkit for HTTP requests
-
-# ---------------------------------------------
-# Android
-# ---------------------------------------------
-brew 'scrcpy' # Mirror phone to laptop

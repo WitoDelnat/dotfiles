@@ -83,12 +83,13 @@ cask 'gpg-suite' # Sign git commits
 brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
 
-brew 'coreutils' # GNU utils
-brew 'neovim'    # Better vim
-brew 'bat'       # Better cat
-brew 'ripgrep'   # Better grep
-brew 'gh'        # GitHub CLI
-brew 'tree'      # List directories as a tree
-brew 'fzf'       # Fuzzy search
-brew 'jq'        # Toolkit for JSON processing
-brew 'httpie'    # Toolkit for HTTP requests
+brew 'openconnect' # VPN utils
+brew 'coreutils'   # GNU utils
+brew 'neovim'      # Better vim
+brew 'bat'         # Better cat
+brew 'ripgrep'     # Better grep
+brew 'gh'          # GitHub CLI
+brew 'tree'        # List directories as a tree
+brew 'fzf'         # Fuzzy search
+brew 'jq'          # Toolkit for JSON processing
+brew 'httpie'      # Toolkit for HTTP requests
